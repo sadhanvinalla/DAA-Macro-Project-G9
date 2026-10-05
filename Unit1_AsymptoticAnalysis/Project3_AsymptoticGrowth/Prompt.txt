@@ -1,0 +1,25 @@
+﻿Create a professional academic concept map titled "Asymptotic Growth Comparison".
+
+The concept map should explain the three asymptotic notations:
+
+1. Big-O (O) -> Upper Bound
+2. Omega (Ω) -> Lower Bound
+3. Theta (Θ) -> Tight Bound
+
+Show the common growth functions in increasing order:
+
+O(1) -> O(log n) -> O(n) -> O(n log n) -> O(n²) -> O(2ⁿ)
+
+Include clear algorithm examples:
+
+O(1) -> Array Element Access
+O(log n) -> Binary Search
+O(n) -> Linear Search
+O(n log n) -> Merge Sort
+O(n²) -> Bubble Sort
+
+Use a clean white background, simple academic style, readable labels,
+clear arrows, organized boxes, and minimal decoration.
+
+The visualization should be suitable for a college DAA macro project.
+Do not include unnecessary text, human figures, logos, or watermarks.

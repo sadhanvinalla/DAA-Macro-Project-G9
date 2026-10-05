@@ -1,0 +1,25 @@
+﻿print("======================================")
+print("     ASYMPTOTIC GROWTH COMPARISON")
+print("======================================")
+
+print("\nGrowth Functions:")
+print("O(1)       -> Constant")
+print("O(log n)   -> Logarithmic")
+print("O(n)       -> Linear")
+print("O(n log n) -> Linearithmic")
+print("O(n^2)     -> Quadratic")
+print("O(2^n)     -> Exponential")
+
+print("\nAlgorithm Examples:")
+print("O(1)       -> Array Element Access")
+print("O(log n)   -> Binary Search")
+print("O(n)       -> Linear Search")
+print("O(n log n) -> Merge Sort")
+print("O(n^2)     -> Bubble Sort")
+
+print("\nAsymptotic Notations:")
+print("Big-O      -> Upper Bound")
+print("Omega      -> Lower Bound")
+print("Theta      -> Tight Bound")
+
+print("\nProject completed successfully!")
