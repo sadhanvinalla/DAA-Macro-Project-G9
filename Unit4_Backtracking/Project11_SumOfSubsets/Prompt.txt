@@ -1,0 +1,81 @@
+Create a clean, professional academic state-space tree visualization for the
+Sum of Subsets problem using backtracking.
+
+Problem:
+Set = {5, 10, 12}
+Target Sum = 15
+
+Title:
+"State Space Tree for Sum of Subsets"
+
+Subtitle:
+"Set = {5, 10, 12}, Target Sum = 15"
+
+Create a complete state-space tree showing the inclusion/exclusion
+decisions for the elements 5, 10, and 12.
+
+Start with the root node:
+
+Sum = 0
+Subset = {}
+
+For each element, show two branches:
+- Include the current element
+- Exclude the current element
+
+Process the elements in this order:
+5 → 10 → 12
+
+Clearly label every branch with "Include X" or "Exclude X".
+
+Each state-space node should display:
+- Current Sum
+- Current Subset
+
+Clearly highlight the successful solution:
+
+Subset = {5, 10}
+Sum = 15
+
+and label it:
+"✓ Solution — Target Sum Reached"
+
+Show relevant dead-end branches where:
+- Current sum exceeds 15
+- All elements have been considered without reaching 15
+
+Mark sums greater than 15 as:
+"✗ Dead End — Sum > 15"
+
+Mark branches where all elements have been considered without
+reaching the target as:
+"✗ Dead End — All elements considered"
+
+Use arrows to clearly show the direction of the tree.
+
+Use a professional academic infographic style:
+- White/light background
+- Clear rounded nodes
+- Green highlighting for Include branches
+- Red/pink highlighting for dead-end branches
+- Green highlighting for the solution node
+- Clear black arrows
+- Readable labels
+- Consistent spacing
+- Minimal decoration
+
+Include a small legend explaining:
+- Include current element
+- Exclude current element
+- Solution node
+- Dead-end node
+
+The final image should be suitable for a DAA college project,
+GitHub README, and PowerPoint presentation.
+
+Do not change the input set.
+Do not change the target sum.
+Do not add any elements.
+Do not invent additional solutions.
+Ensure that the visualization represents the actual backtracking
+state-space tree correctly.
