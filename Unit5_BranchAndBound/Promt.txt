@@ -1,0 +1,36 @@
+Create a clear and academically styled **Branch-and-Bound tree diagram for the 0/1 Knapsack problem**, using the following example:
+
+Input:
+N = 5, W = 10
+Values = {40, 50, 100, 95, 30}
+Weights = {2, 3.14, 1.98, 5, 3}
+
+First, calculate the value-to-weight ratio for each item and arrange the items in decreasing order of ratio. Then construct the Branch-and-Bound decision tree where each level represents the decision to **include or exclude** an item.
+
+For every node, clearly display:
+
+* Current weight (W)
+* Current profit/value (V)
+* Upper bound (B)
+* Include/Exclude decision
+
+Use the fractional-knapsack calculation to determine the upper bound at each node.
+
+Clearly show:
+
+* Nodes that are expanded
+* Nodes that are pruned because their weight exceeds the capacity
+* Nodes that are pruned because their upper bound is less than or equal to the current best profit
+* The current best/maximum profit at each important stage
+* The final optimal solution
+
+Highlight the optimal path and show that the optimal selection is **Items 3, 1, and 4**, with:
+
+Weight = 1.98 + 2 + 5 = 8.98 ≤ 10
+Profit = 100 + 40 + 95 = **235**
+
+The final diagram should be a neat, easy-to-understand **binary tree**, suitable for a college computer science project. Use arrows labeled **Include** and **Exclude**, rectangular nodes, and clearly mark **PRUNED** branches with an X. Put the title at the top:
+
+“0/1 Knapsack Using Branch and Bound – Bounding and Pruning”
+
+Make the diagram logically correct, with all bound values calculated and displayed at the corresponding nodes.
